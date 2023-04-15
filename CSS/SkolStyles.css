@@ -1,0 +1,227 @@
+/*
+- To add a background image on an HTML element, use the HTML style attribute and the CSS background-image property.
+you can also make one element just have its own unique backgorund
+
+- To avoid the background image from repeating itself, set the background-repeat property to no-repeat.
+
+- If you want the background image to cover the entire element, you can set the background-size property to cover.
+Also, to make sure the entire element is always covered, set the background-attachment property to fixed.
+This way, the background image will cover the entire element, with no stretching (the image will keep its original proportions).
+
+ - Add comments to most of the code to have a better understanding of what we are writing. basically write documentation
+*/
+
+/*screen size below 780*/
+@media (max-width: 800px) {
+  .OtherDishes{
+    margin-left: 15%;
+    margin-right: auto;
+    width: 15%;
+    border-radius: 5px;
+    opacity: 1;
+    transition: .75s ease;  
+    padding: 10px;
+    float: left;
+  }
+}
+
+body{
+    background-image: url('../Images/starwberry.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;    
+}
+/*style the big word in the corner of the webpage*/
+.SkolWord{
+  font-family: 'Copperplate Gothic';
+  text-align: center;
+  color: #404040;
+}
+/*remove bullets form the list, make them inline */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+
+/*change the header color and make rounded edges*/
+header{
+    background-color: #ffcc99;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 1500px;
+}
+/*
+for the nav bar make its own class, take out the underline, cetner text
+*/
+  .skolNav {
+        list-style-type: none;
+        text-align: center;
+        font-size: 17px;
+        padding: 14px 16px;                
+}
+a{
+  text-decoration: none;
+}
+.DishOfTheDayP{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*
+navigation link styles
+*/
+.skolNav a{
+  text-decoration: none;
+}
+ 
+  .skolNav ul {
+    left: 50%;
+    border-radius: 5px;
+    background-color: #FFEBCD;
+  }
+/*make the nav li elements inline-block*/
+  .skolNav li {
+    display: inline-block;
+ }
+
+ /*when the mouse hovers over a nav bar link, change the colour*/
+ .skolNav a:hover {
+    background-color: #BDB76B;
+    color:  #9932CC;
+  }
+.skolNav a:active{
+  background-color: #ff3300;
+  color: black;  
+}  
+/*
+  .skolNav {
+        overflow: hidden;
+        text-decoration: none;
+        float: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);        
+}
+*/
+
+/*Format the daily dish article
+center the element
+o center class
+o rounded corners
+*/
+.DishOfTheDay{
+  text-align: center;
+  background-color: #F0EAD6;  
+  border-radius: 40px;
+  width: 90%;
+  max-width: 1500px;
+  display: block;
+  margin-left: auto;  
+  margin-right: auto;
+  padding: 10px;
+}
+
+/*
+format the Dish of the Day img : 
+o responsive image size, with a max size
+o rounded corners
+*/
+.bigDish{
+  width: 80%;
+  height: 45%;
+  max-width: 1000px;  
+  border-radius: 5px;
+  opacity: 1;
+  transition: .75s ease;  
+}
+
+/*hover over the Dish of the day img and change the transparency */
+.bigDish:hover {
+  opacity: 0.65;
+  transition-delay:.1s;  
+}
+/*
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+*/
+/*
+  Add the blur effect
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  margin-left: -80%;
+*/
+ 
+/*
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.OtherDishes{
+  margin-left: 15%;
+  margin-right: auto;
+  width: 15%;
+  border-radius: 5px;
+  opacity: 1;
+  transition: .75s ease;  
+  padding: 10px;
+  float: left;
+}
+*/
+.OtherDishes{
+  width: 15%;
+  border-radius: 5px;
+  opacity: 1;
+  transition: .75s ease;  
+  padding: 10px;
+  
+}
+
+.OtherDishes:hover{
+  opacity: 0.65;
+  transition-delay:.1s;   
+}
+
+.OtherDishesDiv{
+  text-align: center;
+  left: 1%;
+  right: 1%;  
+}
+
+
+/* Clearfix (clear floats)
+  content: "";
+  clear: both;
+  display: table;
+*/
+.row::after {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: 300px 1fr;
+  gap: 1rem;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font: 500 100%/1.5 system-ui;
+}
+
+footer{
+  padding: 2rem;
+  grid-template-columns: 300px 1fr;
+  gap: 1rem;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 5px;
+  font: 300 100%/1.5 system-ui;  
+  background-color: #996633;  
+}

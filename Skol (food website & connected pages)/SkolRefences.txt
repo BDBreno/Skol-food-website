@@ -1,0 +1,50 @@
+Skol.com is our food recipe website that we'll try to test out as much HTML, CSS, and JavaScript
+
+stuff I want to do for the website:
+- I want to make a user friendly website
+- easy navigation
+- 10 to 20 webpages
+- use html as uniquly and effeciently as i can
+- make the website user interactive, this is the main reason I'm making this website
+
+websites we can reference for our website:
+- https://www.epicurious.com/
+- https://www.bonappetit.com/
+- https://pinchofyum.com/
+- https://food52.com/
+- https://www.loveandlemons.com/
+- https://www.allrecipes.com/ 
+- https://www.recipetineats.com/
+- https://www.thespruceeats.com/great-middle-eastern-sandwich-recipes-3958659 
+
+Most of these websites have general similarities that we will use in our website, Skol.com
+general things we'll use all the other websites have:
+- a side or horizontal navigation bar, usually has a drop down navigation
+- the pages Home, About, Recipes/Ingredients, Contact
+- a search bar for food 
+- small/slim footer, usually mirrored the navigation bar but in a different style
+- home page that shows foods and recipes that link to other webpages
+- some have video, I want to try to link other videos into the website and credit the video creators
+- simple, striaght forward layout 
+
+Details for our website: 
+- needs a background image thats like a whole bunch of food but slightly blurred
+- needs a list of 3 - 5 articles
+- needs a slide show for videos that link to youtube pages
+- nav needs to be user responsive 
+- all text should be in a shadow box or overlaying an image so it can be easily read on the screen
+
+these are Youtube videos for helping us make a food recipes website:
+- https://www.youtube.com/watch?v=-8LTPIJBGwQ
+- https://www.youtube.com/watch?v=XAHGoh1W10Q
+- https://www.youtube.com/watch?v=opikz5x_1ak
+- https://www.youtube.com/watch?v=x8EY0BlhPGk
+
+video references with a description:
+- Knafeh - https://www.youtube.com/watch?v=3I0MoZ6DwW4
+- New York Pizza - https://www.youtube.com/watch?v=R8V0WYS-f7I
+- Tonkotsu Miso Ramen - https://www.youtube.com/watch?v=hA4yfpXeq8k&t=407s
+- Fried Sushi Rolls - https://www.youtube.com/watch?v=pUWogmdeVRs&t=225s
+- Chicken Tikka Masala - https://www.youtube.com/watch?v=HMfUsS9zeuw
+- Cloud Bread - https://www.youtube.com/watch?v=8r1D-vNUWsg
+- Meat & Cheese Piroshki Recipe - https://www.youtube.com/watch?v=FtGhRsiPr9E
